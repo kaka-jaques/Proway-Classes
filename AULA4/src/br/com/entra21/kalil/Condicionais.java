@@ -18,6 +18,7 @@ public class Condicionais {
 		}else{
 			JOptionPane.showMessageDialog(null, "És de menor!");
 		}
+		
 	}
 
 }
