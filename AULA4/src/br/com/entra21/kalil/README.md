@@ -20,4 +20,4 @@ if (condicao=true){
 ```
 System.out.println("Texto irá ser completado dependendo se a condição for )+(condicao=true?"true":"ou false?"));
 ```
-**Condição Ternario** serve para pequenas decisões, atribuindo dados a variáveis, por exemplo, mas não pode tomar ações de execução.
+**Condição Ternario** serve para pequenas decisões, atribuindo dados a variáveis, por exemplo: saída de texto dentro de um `System.out.println` ou `JOptionPane.showMessageDialog`, mas não pode tomar ações de execução.

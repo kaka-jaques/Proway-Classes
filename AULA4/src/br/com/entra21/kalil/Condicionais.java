@@ -9,6 +9,8 @@ public class Condicionais {
 		
 		Scanner sc = new Scanner(System.in);
 		
+		//Verificação de idade
+		
 		byte idade;
 		
 		idade = Byte.parseByte(JOptionPane.showInputDialog(null, "Digite sua idade:"));
