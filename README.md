@@ -53,5 +53,5 @@
 	1. `if`
 	1. `else`
 	1. `else if`
-1. [**Condicional Ternario**](link)
+1. [**Condicional Ternario**](https://github.com/kaka-jaques/Proway-Classes/blob/main/AULA4/src/br/com/entra21/kalil/OperadorTernario.java)
 	
