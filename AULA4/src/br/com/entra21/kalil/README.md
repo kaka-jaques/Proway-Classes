@@ -12,12 +12,12 @@ if (condicao=true){
 	realiza pedido caso nenhuma satisfaça;
 }
 ```
-**Condições Indepedentes:** É quando se tem apenas o `if` sem o `else if` ou `else` no final de seu escopo
+**Condições Indepedentes:** É quando se tem apenas o `if` sem o `else if` ou `else` no final de seu escopo, e sobrepõe ações em cima da última decisão de escopo se não bem estruturado.
 
-**Condições Dependentes:** É quando toda as condições seja `if` ou `else if` estão nos finais de seu escopo
+**Condições Dependentes:** É quando toda as condições seja `if` ou `else if` estão nos finais de seu escopo, lembrando que é necessário adicionar o `else` no final do último escopo de decisão.
 
 ### CONDICIONAL TERNARIO
 ```
 System.out.println("Texto irá ser completado dependendo se a condição for )+(condicao=true?"true":"ou false?"));
 ```
-**Condição Ternario** serve para pequenas decisões como demonstradas acima
+**Condição Ternario** serve para pequenas decisões, atribuindo dados a variáveis, por exemplo, mas não pode tomar ações de execução.
