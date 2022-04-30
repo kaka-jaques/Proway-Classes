@@ -43,7 +43,7 @@
 	1. _Pré e Pós Incremento_
 		1. `(numero++)`
 		1. `(++numero)`
-1. [**Operadores de Igualdade, Relacionais e Lógicos**](link)
+1. [**Operadores de Igualdade, Relacionais e Lógicos**](https://github.com/kaka-jaques/Proway-Classes/blob/main/AULA3/src/br/com/entra21/kalil/OperadoresIRL.java)
 	1. Operadores de Igualdade - `==` & `!=`
 	1. Operadores Relacionais - `>` `>=` `<` `<=`
 	1. Operadores Lógicos - `&&` and `||`
