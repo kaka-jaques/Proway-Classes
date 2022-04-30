@@ -12,8 +12,8 @@ if (condicao=true){
 	realiza pedido caso nenhuma satisfaça;
 }
 ```
-<p>**Condições Indepedentes:** É quando se tem apenas o `if` sem o `else if` ou `else` no final de seu escopo</p>
-<p>**Condições Dependentes:** É quando toda as condições seja `if` ou `else if` estão nos finais de seu escopo</p>
+<p> **Condições Indepedentes:** É quando se tem apenas o `if` sem o `else if` ou `else` no final de seu escopo</p>
+<p> **Condições Dependentes:** É quando toda as condições seja `if` ou `else if` estão nos finais de seu escopo</p>
 
 ### CONDICIONAL TERNARIO
 ```
