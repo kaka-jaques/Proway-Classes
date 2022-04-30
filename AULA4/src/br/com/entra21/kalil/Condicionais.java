@@ -19,6 +19,24 @@ public class Condicionais {
 			JOptionPane.showMessageDialog(null, "És de menor!");
 		}
 		
+		//Comparação de Números
+		
+		short numA, numB;
+		
+		numA = Short.parseShort(JOptionPane.showInputDialog("Adicione um número A"));
+		numB = Short.parseShort(JOptionPane.showInputDialog("Adicione um número B"));
+		
+		JOptionPane.showMessageDialog(null, "Esse caso poderá acontecer de ser <, > ou =. Click OK para verificar");
+		
+		if(numA > numB) {
+			JOptionPane.showMessageDialog(null, "Número "+numA+" é maior");
+		}else if (numA == numB) {
+			JOptionPane.showMessageDialog(null, "São iguais!");
+		}else {
+			JOptionPane.showMessageDialog(null, "Número "+numB+" é maior");
+		}
+		
 	}
 
+	
 }
