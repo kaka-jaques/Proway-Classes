@@ -55,3 +55,8 @@
 	1. `else if`
 1. [**Condicional Ternario**](https://github.com/kaka-jaques/Proway-Classes/blob/main/AULA4/src/br/com/entra21/kalil/OperadorTernario.java)
 	
+#### AULA 5 - [Condicional Switch](link)
+1. [**Switch**]()
+	1. `op`
+	1. `default`
+
