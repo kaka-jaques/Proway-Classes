@@ -56,8 +56,12 @@
 1. [**Condicional Ternario**](https://github.com/kaka-jaques/Proway-Classes/blob/main/AULA4/src/br/com/entra21/kalil/OperadorTernario.java)
 	
 #### AULA 5 - [Condicional Switch](https://github.com/kaka-jaques/Proway-Classes/tree/main/AULA5/src/br/com/entra21/kalil)
-1. [**Switch**]()
+1. [**Switch**](https://github.com/kaka-jaques/Proway-Classes/blob/main/AULA5/src/br/com/entra21/kalil/SwitchOP.java)
 	1. `op`
 	1. `default`
-1. 
+1. **Exercícios**
+	1. [Switch 1](https://github.com/kaka-jaques/Proway-Classes/blob/main/AULA5/src/br/com/entra21/kalil/ExercicioSwitch1.java)
+	1. [Switch 2](https://github.com/kaka-jaques/Proway-Classes/blob/main/AULA5/src/br/com/entra21/kalil/Exerc%C3%ADcioSwitch2.java)
+	1. [SwitchIF 1](https://github.com/kaka-jaques/Proway-Classes/blob/main/AULA5/src/br/com/entra21/kalil/SwitchIF1.java)
+	1. [SwitchIF 2](https://github.com/kaka-jaques/Proway-Classes/blob/main/AULA5/src/br/com/entra21/kalil/SwitchIF2.java)
 
