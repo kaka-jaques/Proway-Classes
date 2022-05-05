@@ -1,31 +1,34 @@
-# FUNÇÕES
+# FUNï¿½ï¿½ES
 
-<p> Aprender a estrutura da função e criar função específica de uma ação </p>
+<p> Aprender a estrutura da funï¿½ï¿½o e criar funï¿½ï¿½o especï¿½fica de uma aï¿½ï¿½o </p>
 
 ---
 
+**ESTRUTURA DE UMA FUNï¿½ï¿½O**
+
 `visibilidade static retorno nome (parametros)`
 
-| Partes           | Função de cada parte                 |
+
+| Partes           | Funï¿½ï¿½o de cada parte                 |
 | -----------------|------------------------------|
 | **visibilidade** | private, public ou protected. |
-| **static**       | Quando for static, a função será um **contexto de uma classe**, caso não informe será um **contexto de objeto**.|
-| **retorno**      | `void` quando não houver retorno, quando houver deve informar o tipo da variável (byte, short, long, int, String). |
-| **nome**         | Utilizar de boa conveção um `verboComplemento`. |
-| **parâmetros**   | Quando houver serão informados pelo tipo e nome (ex.: `int numA`), separados por virgula quando houver mais de um (ex.: `(int numA, int numB)`).
+| **static**       | Quando for static, a funï¿½ï¿½o serï¿½ um **contexto de uma classe**, caso nï¿½o informe serï¿½ um **contexto de objeto**.|
+| **retorno**      | `void` quando nï¿½o houver retorno, quando houver deve informar o tipo da variï¿½vel (byte, short, long, int, String). |
+| **nome**         | Utilizar de boa conveï¿½ï¿½o um `verboComplemento`. |
+| **parï¿½metros**  | Quando houver serï¿½o informados pelo tipo e nome (ex.: `int numA`), separados por virgula quando houver mais de um (ex.: `(int numA, int numB)`).
  
 Ex.:
 
 ```
 public static void nomeFuncao(){
 
-	escopo de ações;
+	escopo de aï¿½ï¿½es;
 	
 	return; //se houver retorno
 }
 ```
-**Função** o nome ja diz por si, você cria um escopo separado da sua classe ou do escopo principal da classe, para realizar uma função seja o que for (mostrar texto, pedir valor, etc)
+**Funï¿½ï¿½o** o nome ja diz por si, vocï¿½ cria um escopo separado da sua classe ou do escopo principal da classe, para realizar uma funï¿½ï¿½o seja o que for (mostrar texto, pedir valor, etc)
 
-Você sempre inicia o codigo no escopo principal, e quando você precisa, você chama aquela função em um determinado momento que você quiser para realizar aquela ação, sem precisar ter que ficar repetindo o código inteiro, apenas invocando ele.
+Vocï¿½ sempre inicia o codigo no escopo principal, e quando vocï¿½ precisa, vocï¿½ chama aquela funï¿½ï¿½o em um determinado momento que vocï¿½ quiser para realizar aquela aï¿½ï¿½o, sem precisar ter que ficar repetindo o cï¿½digo inteiro, apenas invocando ele.
 
-**Argumentos** são valores que você adiciona no parâmetro para obter um resultado seja de retorno ou função com `void`
+**Argumentos** sï¿½o valores que vocï¿½ adiciona no parï¿½metro para obter um resultado seja de retorno ou funï¿½ï¿½o com `void`
