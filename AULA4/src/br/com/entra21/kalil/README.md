@@ -2,6 +2,8 @@
 
 <p>Definir condição para ir a um escopo adequado, tomando decisões e iniciando ações desejadas! </p>
 
+---
+
 ### CONDICIONAL
 ```
 if (condicao=true){
