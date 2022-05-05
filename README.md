@@ -65,3 +65,9 @@
 	1. [SwitchIF 1](https://github.com/kaka-jaques/Proway-Classes/blob/main/AULA5/src/br/com/entra21/kalil/SwitchIF1.java)
 	1. [SwitchIF 2](https://github.com/kaka-jaques/Proway-Classes/blob/main/AULA5/src/br/com/entra21/kalil/SwitchIF2.java)
 
+#### AULA 6 - [Funções](https://github.com/kaka-jaques/Proway-Classes/tree/main/AULA6/src/br/com/entra21/kalil)
+1. [**Função**](https://github.com/kaka-jaques/Proway-Classes/blob/main/AULA6/src/br/com/entra21/kalil/Funcoes.java)
+	1. Menu de Escolha - `switch`
+	1. Invocando Funções
+	1. Iniciando Funções
+
