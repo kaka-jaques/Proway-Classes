@@ -12,7 +12,7 @@ public class OperadoresAritmeticos {
 		float numA, numB;
 		
 		
-		System.out.println("OS OPERADORES SÃO: \n Adição - +\nSubtração - -\nMultiplicação - *\nDivisão - /\nResto - %");
+		System.out.println("OS OPERADORES SÃO:\n Adição - +\nSubtração - -\nMultiplicação - *\nDivisão - /\nResto - %");
 		System.out.println("\nDigite dois números");
 		
 		numA = sc.nextFloat();
