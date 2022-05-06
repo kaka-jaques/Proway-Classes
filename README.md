@@ -71,3 +71,6 @@
 	1. Invocando Funções
 	1. Iniciando Funções
 
+#### [**PROVA**](https://github.com/kaka-jaques/Proway-Classes/tree/main/PROVA/src/br/com/entra21/kalil)
+1. [**DESAFIO 1 - CALCULADORA**](https://github.com/kaka-jaques/Proway-Classes/blob/main/PROVA/src/br/com/entra21/kalil/Calculadora.java)
+1. [**DESAFIO 2 - SIGNOS**](https://github.com/kaka-jaques/Proway-Classes/blob/main/PROVA/src/br/com/entra21/kalil/Signos.java)
