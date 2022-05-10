@@ -7,7 +7,6 @@ public class Signos {
 	public static void main(String[] args) {
 		
 		//vars
-		final byte diaMax = 31;
 		byte dia;
 		byte mes;
 		
@@ -16,66 +15,127 @@ public class Signos {
 		System.out.println("Executando Programa \"Signos\"");
 		
 		//starting coding
-		dia = Byte.parseByte(JOptionPane.showInputDialog("Digite o dia em que vocÃª nasceu:"));
-		mes = Byte.parseByte(JOptionPane.showInputDialog("Digite o mÃªs em que vocÃª nasceu:"));
+		dia = Byte.parseByte(JOptionPane.showInputDialog("Digite o dia em que você nasceu:"));
+		mes = Byte.parseByte(JOptionPane.showInputDialog("Digite o mês em que você nasceu:"));
 		
-		if (dia > diaMax) {
-			erroDiaIne();
-		}else if(dia >= 28 && mes == 2 || dia >= 31 && mes == 4 || dia >= 31 && mes == 6 || dia >= 31 && mes == 9 || dia >= 31 && mes == 11) {
-			erroDiaMes();
-		}else {
-			JOptionPane.showMessageDialog(null, "Tudo certo! Processando...");
-		}
+		valDate(dia, mes);
 		
 		JOptionPane.showMessageDialog(null, signos(dia, mes));
+		repeat();
 		
 	}
 	
-	//funÃ§Ã£o validaÃ§Ã£o
+	//função validar dia e mês - APRIMORADO
+		public static void valDate(byte dia, byte mes) {
+			
+			//vars
+			final byte MAXDIA = 31;
+			final byte MINDIAMES = 0;
+			final byte MAXMES = 12;
+			
+			if (dia > MAXDIA || dia < MINDIAMES) {
+				erroDiaIne(dia);
+			}else if(mes > MAXMES || mes < MINDIAMES){
+				erroMes(mes);
+			}else if(dia > MAXDIA && mes > MAXMES || dia < MINDIAMES && mes < MINDIAMES) {
+				erroTotal(dia, mes);
+			}else if(dia >= 28 && mes == 2 || dia >= 31 && mes == 4 || dia >= 31 && mes == 6 || dia >= 31 && mes == 9 || dia >= 31 && mes == 11) {
+				erroDiaMes(dia, mes);
+			}else {
+				JOptionPane.showMessageDialog(null, "Tudo certo! Processando...");
+			}
+			
+			
+		}
+	
+	//função validação do signo - ISSUE
 	public static String signos(byte data, byte mes) {
 		
-		String result;
+		final String RESULT;
 		
 		if(data >= 21 && mes == 3 || data <= 20 && mes == 4) {
-			result = "Ãries";
+			RESULT = "Áries";
 		}else if(data >= 21 && mes == 4 || data <= 20 && mes == 5) {
-			result = "Touro";
+			RESULT = "Touro";
 		}else if(data >= 21 && mes == 5 || data <= 20 && mes == 6) {
-			result = "Gemeos";
+			RESULT = "Gemeos";
 		}else if(data >= 21 && mes == 6 || data <= 20 && mes == 7) {
-			result = "CÃ¢ncer";
+			RESULT = "Câncer";
 		}else if(data >= 21 && mes == 7 || data <= 20 && mes == 8) {
-			result = "LeÃ£o";
+			RESULT = "Leão";
 		}else if(data >= 21 && mes == 8 || data <= 20 && mes == 9) {
-			result = "Virgem";
+			RESULT = "Virgem";
 		}else if(data >= 21 && mes == 9 || data <= 20 && mes == 10) {
-			result = "Libra";
+			RESULT = "Libra";
 		}else if(data >= 21 && mes == 10 || data <= 20 && mes == 11){
-			result = "EscorpiÃ£o";
+			RESULT = "Escorpião";
 		}else if(data >= 21 && mes == 11 || data <= 20 && mes == 12) {
-			result = "SagitÃ¡rio";
+			RESULT = "Sagitário";
 		}else if(data >= 21 && mes == 12 || data <= 20 && mes == 1) {
-			result = "CapricÃ³rnio";
+			RESULT = "Capricórnio";
 		}else if(data >= 21 && mes == 1 || data <= 18 && mes == 2) {
-			result = "AquÃ¡rio";
+			RESULT = "Aquário";
 		}else {
-			result = "Peixes";		
+			RESULT = "Peixes";		
 		}
 		
-		return(result);
+		return(RESULT);
+		
+		
+	}
+	
+	
+	//função erro DIA
+	public static void erroDiaIne(int dia) {
+		
+		JOptionPane.showMessageDialog(null, "ERRO! DIA "+dia+" É INEXISTENTE!");
+		main(null);
+	
+	}
+	
+	//função erro MÊS
+	public static void erroMes(int mes) {
+		
+		JOptionPane.showMessageDialog(null, "ERRO! MÊS "+mes+" É INEXISTENTE!");
+		main(null);
 		
 	}
 
-	//funÃ§Ã£o erro 1
-	public static void erroDiaIne() {
-	JOptionPane.showMessageDialog(null, "ERRO! DIA INEXISTENTE!");
-	main(null);
+	
+	//função erro DIA do MÊS
+	public static void erroDiaMes(int dia, int mes) {
+		
+		JOptionPane.showMessageDialog(null, "ERRO! DIA "+dia+" NO MÊS "+mes+" É INEXISTENTE!");
+		main(null);
+	
 	}
-
-	//funÃ§Ã£o erro 2
-	public static void erroDiaMes() {
-	JOptionPane.showMessageDialog(null, "ERRO! DIA DO MÃŠS INEXISTENTE!");
-	main(null);
+	
+	//função erro DIA e MÊS
+	public static void erroTotal(int dia, int mes) {
+		
+		JOptionPane.showMessageDialog(null, "ERRO! DIA "+dia+" E "+mes+" MÊS SÃO INEXISTENTE!");
+		main(null);
+		
+	}
+	
+	
+	//função repeat - APRIMORADO
+	public static void repeat() {
+		switch(JOptionPane.showInputDialog("REPETIR PROGRAMA? (Sim ou Não)").toLowerCase()) { //APRIMORADO
+		case "sim":
+			main(null);
+			break;
+		case "não":
+			JOptionPane.showMessageDialog(null, "Thanks! :)");
+			break;
+		default:
+			JOptionPane.showMessageDialog(null, "Opção inválida");
+			repeat();
+			break;
+			
+		}
+		
+		
 	}
 
 	

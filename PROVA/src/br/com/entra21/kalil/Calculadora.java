@@ -21,99 +21,80 @@ public class Calculadora {
 	public static void calculadora(int numA, int numB) {
 		
 		//vars
-		String op;
-		byte calc;
-		int resul;
-		int nextCalcA;
-		int nextCalcB;
-		
-		//menu
-		op = JOptionPane.showInputDialog("Digite uma operação do cálculo desejada:\n1 - Adição\n2 - Subtração\n3 - Divisão\n4 - Multiplicação");
-		
+			
 		//seleção e processamento
-		switch(op.toLowerCase()) {
-		case "adição":
-		case "1":
+		switch(JOptionPane.showInputDialog("Digite uma operação do cálculo desejada:\n1 - Adição\n2 - Subtração\n3 - Divisão\n4 - Multiplicação").toLowerCase()) { //APRIMORADO
+		case "adição", "1": //APRIMORADO
 			
-			resul = numA + numB;
-			JOptionPane.showMessageDialog(null, numA+"+"+numB+"="+resul);
-			calc = Byte.parseByte(JOptionPane.showInputDialog("Digite 1 para realizar mais um cálculo:\n\nOu digite 2 para sair"));
-			
-			if(calc == 1) {
-				
-				nextCalcA = Integer.parseInt(JOptionPane.showInputDialog("Ótimo! Digite um número A"));
-				nextCalcB = Integer.parseInt(JOptionPane.showInputDialog("Digite um número B:"));
-				calculadora(nextCalcA, nextCalcB);
-
-			}else if (calc == 2){
-				
-				JOptionPane.showMessageDialog(null, "Até mais!! :)");
-				
-			}
+			JOptionPane.showMessageDialog(null, "Resultado: "+numA+"+"+numB+"="+runSoma(numA, numB));
 			
 			break;
-		case "subtração":
-		case "2":
 			
-			resul = numA - numB;
-			JOptionPane.showMessageDialog(null, numA+"-"+numB+"="+resul);
-			calc = Byte.parseByte(JOptionPane.showInputDialog("Digite 1 para realizar mais um cálculo:\n\nOu digite 2 para sair"));
+		case "subtração", "2":
 			
-			if(calc == 1) {
-				
-				nextCalcA = Integer.parseInt(JOptionPane.showInputDialog("Ótimo! Digite um número A"));
-				nextCalcB = Integer.parseInt(JOptionPane.showInputDialog("Digite um número B:"));
-				calculadora(nextCalcA, nextCalcB);
-
-			}else if (calc == 2){
-				
-				JOptionPane.showMessageDialog(null, "Até mais!! :)");
-				
-			}
+			JOptionPane.showMessageDialog(null, "Resultado: "+numA+"-"+numB+"="+runSub(numA, numB));
 			
 			break;
-		case "divisão":
-		case "3":
 			
-			resul = numA / numB;
-			JOptionPane.showMessageDialog(null, numA+"÷"+numB+"="+resul);
-			calc = Byte.parseByte(JOptionPane.showInputDialog("Digite 1 para realizar mais um cálculo:\n\nOu digite 2 para sair"));
+		case "divisão", "3":
 			
-			if(calc == 1) {
-				
-				nextCalcA = Integer.parseInt(JOptionPane.showInputDialog("Ótimo! Digite um número A"));
-				nextCalcB = Integer.parseInt(JOptionPane.showInputDialog("Digite um número B:"));
-				calculadora(nextCalcA, nextCalcB);
-
-			}else if (calc == 2){
-				
-				JOptionPane.showMessageDialog(null, "Até mais!! :)");
-				
-			}
+			JOptionPane.showMessageDialog(null, "Resultado: "+numA+"÷"+numB+"="+runDiv(numA, numB));
 			
 			break;
-		case "multiplicação":
-		case "4":
 			
-			resul = numA * numB;
-			JOptionPane.showMessageDialog(null, numA+"x"+numB+"="+resul);
-			calc = Byte.parseByte(JOptionPane.showInputDialog("Digite 1 para realizar mais um cálculo:\n\nOu digite 2 para sair"));
+		case "multiplicação", "4":
 			
-			if(calc == 1) {
-				
-				nextCalcA = Integer.parseInt(JOptionPane.showInputDialog("Ótimo! Digite um número A"));
-				nextCalcB = Integer.parseInt(JOptionPane.showInputDialog("Digite um número B:"));
-				calculadora(nextCalcA, nextCalcB);
-
-			}else if (calc == 2){
-				
-				JOptionPane.showMessageDialog(null, "Até mais!! :)");
-				
-			}
+			JOptionPane.showMessageDialog(null, "Resultado: "+numA+"x"+numB+"="+runMult(numA, numB));
 			
 			break;
+			
 		}
+	
 		
 	}
+	
+	//função multiplicação
+	public static int runMult(int numA, int numB) {
+		
+		int resul = numA * numB;
+		JOptionPane.showMessageDialog(null, numA+"x"+numB+"="+resul);
+		return(resul);
+		
+	}
+	
+	//função divisão
+	public static int runDiv(int numA, int numB) {
+		
+		int resul = numA / numB;
+		JOptionPane.showMessageDialog(null, numA+"÷"+numB+"="+resul);
+		return(resul);
+		
+	}
+	
+	//função subtração
+	public static int runSub(int numA, int numB) {
+		
+		int resul = numA - numB;
+		JOptionPane.showMessageDialog(null, numA+"-"+numB+"="+resul);
+		return(resul);
+		
+	}
+	
+	//função soma
+	public static int runSoma(int numA, int numB) {
+		
+		int resul = numA + numB;
+		JOptionPane.showMessageDialog(null, numA+"+"+numB+"="+resul);
+		return(resul);
+		
+	}
+	
+	//função repeat
+	public static void runRepeat() {
+		
+		
+		
+	}
+	
 
 }
