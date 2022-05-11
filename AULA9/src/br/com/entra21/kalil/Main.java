@@ -2,7 +2,7 @@ package br.com.entra21.kalil;
 
 import javax.swing.JOptionPane;
 
-public class AulaWhile {
+public class Main {
 
 	public static void main(String[] args) {
 		
@@ -46,15 +46,31 @@ public class AulaWhile {
 			cont++;
 		}
 		
+		String answer = JOptionPane.showInputDialog("Quer entrar na repetição?");
+		
+		while(answer.equalsIgnoreCase("sim") || answer.equalsIgnoreCase("continuar") || answer.equalsIgnoreCase("dnv") || answer.equalsIgnoreCase("tinovo") || answer.equalsIgnoreCase("quero")) {
+			
+			answer = JOptionPane.showInputDialog("Quer repetir?");
+			
+		}
+		
 		JOptionPane.showMessageDialog(null, "Finish!");
 		main(null);
 		
 	}
 	
-	//função DO WHILE
+	//função DO-WHILE
 	public static void aprenderDoWhile() {
 		
+		String answer;
 		
+		do {
+			
+			answer = JOptionPane.showInputDialog("Existiam 2 dogs, PITA e REPITA.\nPITA morreu, quem sobrou?");
+			
+		}while(answer.equalsIgnoreCase("repita"));
+		
+		JOptionPane.showMessageDialog(null, "Num sabe brincar, num desce pro play |:[ ");
 		
 	}
 	
