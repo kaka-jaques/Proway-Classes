@@ -1,23 +1,25 @@
-# Operadores AritmÈticos, de Incremento e Decremento
+# <img src="https://github.com/kaka-jaques/Proway-Classes/blob/main/gifs/Enchanting_Table.gif?raw=true" align="center" width="60px"> Operadores Aritm√©ticos, de Incremento e Decremento
 
-<p> Realizar operaÁıes matem·ticas no cÛdigo </p>
+<p> <img src="https://github.com/kaka-jaques/Proway-Classes/blob/main/gifs/Enchanted_Book.gif?raw=true" align="center" width="30px"> Realizar opera√ß√µes matem√°ticas no c√≥digo </p>
 
-### AritmÈticos
+---
 
-**Sinais** utilizados normalmente em c·lculos matem·ticos, diferenciando os sinais de operaÁıes padr„o como: 
-> `+` (adiÁ„o)
+### <img src="https://github.com/kaka-jaques/Proway-Classes/blob/main/gifs/Arrow_Burning.gif?raw=true" align="center" width="35px"> **_Aritm√©ticos_**
+
+<img src="https://github.com/kaka-jaques/Proway-Classes/blob/main/gifs/Bottle_Enchanting.gif?raw=true" align="center" width="30px"> **Sinais** utilizados normalmente em c√°lculos matem√°ticos, diferenciando os sinais de opera√ß√µes padr√£o como: 
+> `+` (adi√ß√£o)
 >
-> `-` (subtraÁ„o)
+> `-` (subtra√ß√£o)
 >
-> `*` (multiplicaÁ„o)
+> `*` (multiplica√ß√£o)
 >
-> `/` (divis„o)
+> `/` (divis√£o)
 >
-> `%` (que apresenta o resto duma divis„o)
+> `%` (que apresenta o resto duma divis√£o)
 
-### Incremento e Decremento
+### <img src="https://github.com/kaka-jaques/Proway-Classes/blob/main/gifs/Arrow_Burning.gif?raw=true" align="center" width="35px"> **_Incremento e Decremento_**
 
-Operadores feitos para **acrescentar, diminuir, incrementar ou decrementar** valores prÈ-fixados ou de vari·veis.
+<img src="https://github.com/kaka-jaques/Proway-Classes/blob/main/gifs/Bottle_Enchanting.gif?raw=true" align="center" width="30px"> Operadores feitos para **acrescentar, diminuir, incrementar ou decrementar** valores pr√©-fixados ou de vari√°veis.
 
 ```
 byte numA = 2;
@@ -29,26 +31,26 @@ numA++;
 numA += numA
 ```
 
-TambÈm funciona utilizando o `--` no lugar do `++`.
+Tamb√©m funciona utilizando o `--` no lugar do `++`.
 
-### PÛs-incremento e PrÈ-Incremento
+### <img src="https://github.com/kaka-jaques/Proway-Classes/blob/main/gifs/Arrow_Burning.gif?raw=true" align="center" width="35px"> **_P√≥s-incremento e Pr√©-Incremento_**
 
-Incrementa (ou Decrementa) dependente da posiÁ„o do `++` ou `--`, por exemplo:
+<img src="https://github.com/kaka-jaques/Proway-Classes/blob/main/gifs/Bottle_Enchanting.gif?raw=true" align="center" width="30px"> Incrementa (ou Decrementa) dependente da posi√ß√£o do `++` ou `--`, por exemplo:
 
 ```
-//Considerando o valor inicial o "syso" sair· 2 ainda...
+//Considerando o valor inicial o "syso" sair√° 2 ainda...
 System.out.println(numA++);
 
-//Agora ele sair· 3
+//Agora ele sair√° 3
 System.out.println(numA)
 
-//E agora sair· 4
+//E agora sair√° 4
 System.out.println(++numA)
 ```
 
-Funciona tambÈm com os operadores de Incremento `+=`.
+Funciona tamb√©m com os operadores de Incremento `+=`.
 
-### Operadores de Igualdade, Relacionais e LÛgicos (IRL)
+### <img src="https://github.com/kaka-jaques/Proway-Classes/blob/main/gifs/Arrow_Burning.gif?raw=true" align="center" width="35px"> **_Operadores de Igualdade, Relacionais e L√≥gicos (IRL)_**
 
 
 
