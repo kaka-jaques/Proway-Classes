@@ -1,34 +1,32 @@
-# FUN��ES
+# <img src="https://github.com/kaka-jaques/Proway-Classes/blob/main/gifs/Enchanting_Table.gif?raw=true" align="center" width="60px">  **_FUNÇÕES_**
 
-<p> Aprender a estrutura da fun��o e criar fun��o espec�fica de uma a��o </p>
+<p> <img src="https://github.com/kaka-jaques/Proway-Classes/blob/main/gifs/Enchanted_Book.gif?raw=true" align="center" width="30px"> Aprender a estrutura da função e criar função específica de uma ação </p>
 
 ---
 
-**ESTRUTURA DE UMA FUN��O**
+<img src="https://github.com/kaka-jaques/Proway-Classes/blob/main/gifs/Arrow_Burning.gif?raw=true" align="center" width="30px"> **_ESTRUTURA DE UMA FUNÇÃO_**
 
-`visibilidade static retorno nome (parametros)`
-
-
-| Partes           | Fun��o de cada parte                 |
-| -----------------|------------------------------|
-| **visibilidade** | private, public ou protected. |
-| **static**       | Quando for static, a fun��o ser� um **contexto de uma classe**, caso n�o informe ser� um **contexto de objeto**.|
-| **retorno**      | `void` quando n�o houver retorno, quando houver deve informar o tipo da vari�vel (byte, short, long, int, String). |
-| **nome**         | Utilizar de boa conve��o um `verboComplemento`. |
-| **par�metros**  | Quando houver ser�o informados pelo tipo e nome (ex.: `int numA`), separados por virgula quando houver mais de um (ex.: `(int numA, int numB)`).
- 
-Ex.:
+`visibilidade static retorno nomeFuncao (parametros)`
 
 ```
 public static void nomeFuncao(){
 
-	escopo de a��es;
+	escopo de ações;
 	
 	return; //se houver retorno
 }
 ```
-**Fun��o** o nome ja diz por si, voc� cria um escopo separado da sua classe ou do escopo principal da classe, para realizar uma fun��o seja o que for (mostrar texto, pedir valor, etc)
 
-Voc� sempre inicia o codigo no escopo principal, e quando voc� precisa, voc� chama aquela fun��o em um determinado momento que voc� quiser para realizar aquela a��o, sem precisar ter que ficar repetindo o c�digo inteiro, apenas invocando ele.
+| Partes           | Função de cada parte                 |
+| -----------------|------------------------------|
+| **visibilidade** | private, public ou protected. |
+| **static**       | Quando for static, a função será um **contexto de uma classe**, caso não informe será um **contexto de objeto**.|
+| **retorno**      | `void` quando não houver retorno, quando houver deve informar o tipo da variável (byte, short, long, int, String). |
+| **nome**         | Utilizar de boa convenção um `verboComplemento`. |
+| **parâmetros**  | Quando houver serão informados pelo tipo e nome (ex.: `int numA`), separados por virgula quando houver mais de um (ex.: `(int numA, int numB)`).
 
-**Argumentos** s�o valores que voc� adiciona no par�metro para obter um resultado seja de retorno ou fun��o com `void`
+<img src="https://github.com/kaka-jaques/Proway-Classes/blob/main/gifs/Bottle_Enchanting.gif?raw=true" align="center" width="30px"> **_Função_** o nome ja diz por si, você cria um escopo separado da sua classe ou do escopo principal da classe, para realizar uma função seja o que for (mostrar texto, pedir valor, etc)
+
+Você sempre inicia o codigo no escopo principal, e quando você precisa, você chama aquela função em um determinado momento que você quiser para realizar aquela ação, sem precisar ter que ficar repetindo o código inteiro, apenas invocando ele.
+
+<img src="https://github.com/kaka-jaques/Proway-Classes/blob/main/gifs/Bottle_Enchanting.gif?raw=true" align="center" width="30px"> **_Argumentos_** são valores que você adiciona no parâmetro para obter um resultado seja de retorno ou função com `void`

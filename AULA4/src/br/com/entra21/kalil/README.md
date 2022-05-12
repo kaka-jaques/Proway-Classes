@@ -1,25 +1,42 @@
-# OPERADORES CONDICIONAIS
+# <img src="https://github.com/kaka-jaques/Proway-Classes/blob/main/gifs/Enchanting_Table.gif?raw=true" align="center" width="60px"> OPERADORES CONDICIONAIS
 
-<p>Definir condiÁ„o para ir a um escopo adequado, tomando decisıes e iniciando aÁıes desejadas! </p>
+<p> <img src="https://github.com/kaka-jaques/Proway-Classes/blob/main/gifs/Enchanted_Book.gif?raw=true" align="center" width="30px"> Definir condi√ß√£o para ir a um escopo adequado, tomando decis√µes e iniciando a√ß√µes desejadas! </p>
 
 ---
 
-### CONDICIONAL
+### <img src="https://github.com/kaka-jaques/Proway-Classes/blob/main/gifs/Arrow_Burning.gif?raw=true" align="center" width="35px"> **_CONDICIONAL_**
 ```
 if (condicao=true){
-	Realiza pedido;
+	A√ß√£o(1);
 }else if (segunda condicao=true){
-	realiza pedido;
+	A√ß√£o(2);
 }else {
-	realiza pedido caso nenhuma satisfaÁa;
+	A√ß√£o(3);
 }
 ```
-**CondiÁıes Indepedentes:** … quando se tem apenas o `if` sem o `else if` ou `else` no final de seu escopo, e sobrepıe aÁıes em cima da ˙ltima decis„o de escopo se n„o bem estruturado.
+<img src="https://github.com/kaka-jaques/Proway-Classes/blob/main/gifs/Bottle_Enchanting.gif?raw=true" align="center" width="30px"> `if`: Condicional que realizar√° uma a√ß√£o em seu escopo SE sua condi√ß√£o for satisfeita.
 
-**CondiÁıes Dependentes:** … quando toda as condiÁıes seja `if` ou `else if` est„o nos finais de seu escopo, lembrando que È necess·rio adicionar o `else` no final do ˙ltimo escopo de decis„o.
+<img src="https://github.com/kaka-jaques/Proway-Classes/blob/main/gifs/Bottle_Enchanting.gif?raw=true" align="center" width="30px"> `else if`: Serve como uma segunda condi√ß√£o em que realiza a√ß√µes em outro escopo SE atender a outras satisfa√ß√µes. (Pode ser inserido quantos `else if` desejar)
+```
+if (condicao){
+	A√ß√£o();
+}else if(condicao){
+	A√ß√£o()
+}else if(condicao){
+	A√ß√£o();
+}else{
+	A√ß√£o();
+}
+```
 
-### CONDICIONAL TERNARIO
+<img src="https://github.com/kaka-jaques/Proway-Classes/blob/main/gifs/Bottle_Enchanting.gif?raw=true" align="center" width="30px"> `else`: Tem a fun√ß√£o de ser executado caso nem o `if` e o `else if` seja executados.
+
+<img src="https://github.com/kaka-jaques/Proway-Classes/blob/main/gifs/Bottle_Enchanting.gif?raw=true" align="center" width="30px"> **_Condi√ß√µes Indepedentes:_** √à quando se tem apenas o `if` sem o `else if` ou `else` no final de seu escopo, e sobrep√µe a√ß√µes em cima da √∫ltima decis√£o de escopo se n√£o bem estruturado.
+
+<img src="https://github.com/kaka-jaques/Proway-Classes/blob/main/gifs/Bottle_Enchanting.gif?raw=true" align="center" width="30px"> **_Condi√ß√µes Dependentes:_** √â quando toda as condi√ß√µes seja `if` ou `else if` est√£o nos finais de seu escopo, lembrando que √© necess√°rio adicionar o `else` no final do √∫ltimo escopo de decis√£o.
+
+### <img src="https://github.com/kaka-jaques/Proway-Classes/blob/main/gifs/Arrow_Burning.gif?raw=true" align="center" width="35px"> **_CONDICIONAL TERNARIO_**
 ```
-System.out.println("Texto ir· ser completado dependendo se a condiÁ„o for )+(condicao=true?"true":"ou false?"));
+System.out.println("Texto ir√° ser completado dependendo se a condi√ß√£o for )+(condicao=true?"true":"ou false?"));
 ```
-**CondiÁ„o Ternario** serve para pequenas decisıes, atribuindo dados a vari·veis, por exemplo: saÌda de texto dentro de um `System.out.println` ou `JOptionPane.showMessageDialog`, mas n„o pode tomar aÁıes de execuÁ„o.
+<img src="https://github.com/kaka-jaques/Proway-Classes/blob/main/gifs/Bottle_Enchanting.gif?raw=true" align="center" width="30px"> **_Condi√ß√£o Ternario_** serve para pequenas decis√µes, atribuindo dados a vari√°veis, por exemplo: sa√≠da de texto dentro de um `System.out.println` ou `JOptionPane.showMessageDialog`, mas n√£o pode tomar a√ß√µes de execu√ß√£o.

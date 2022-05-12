@@ -61,7 +61,7 @@
 1. [**Switch**](https://github.com/kaka-jaques/Proway-Classes/blob/main/AULA5/src/br/com/entra21/kalil/SwitchOP.java) <img src="https://github.com/kaka-jaques/Proway-Classes/blob/main/gifs/Arrow_Burning.gif?raw=true" align="center" width="20px">
 	1. `op`
 	1. `default`
-1. **Exercícios** <img src="https://github.com/kaka-jaques/Proway-Classes/blob/main/gifs/Arrow_Burning.gif?raw=true" align="center" width="20px">
+1. [**Exercícios**](https://github.com/kaka-jaques/Proway-Classes/tree/main/AULA5/src/br/com/entra21/kalil) <img src="https://github.com/kaka-jaques/Proway-Classes/blob/main/gifs/Arrow_Burning.gif?raw=true" align="center" width="20px">
 	1. [Switch 1](https://github.com/kaka-jaques/Proway-Classes/blob/main/AULA5/src/br/com/entra21/kalil/ExercicioSwitch1.java)
 	1. [Switch 2](https://github.com/kaka-jaques/Proway-Classes/blob/main/AULA5/src/br/com/entra21/kalil/Exerc%C3%ADcioSwitch2.java)
 	1. [SwitchIF 1](https://github.com/kaka-jaques/Proway-Classes/blob/main/AULA5/src/br/com/entra21/kalil/SwitchIF1.java)
@@ -87,3 +87,6 @@
 1. [**_Main_**]() <img src="https://github.com/kaka-jaques/Proway-Classes/blob/main/gifs/Arrow_Burning.gif?raw=true" align="center" width="20px">
 	1. `While`
 	1. `Do {} while();`
+
+#### <img src="https://github.com/kaka-jaques/Proway-Classes/blob/main/gifs/Bottle_Enchanting.gif?raw=true" align="center" width="23px"> **_AULA 10 -_** [**_Repetição While/Do-While_**](https://github.com/kaka-jaques/Proway-Classes/tree/main/AULA9/src/br/com/entra21/kalil)
+1. nusei
