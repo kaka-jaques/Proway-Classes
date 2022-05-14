@@ -15,7 +15,7 @@ public class Main {
 		//coding
 		do {
 			System.out.println("=====CALCULADORA=====");
-			System.out.println("1 - Soma\n2 - Repetir 20 vezes\n3 - Somar idades\n4 - Exibir os mais velhos\n5 - Exibir os mais novos\n6 - Ler 20 número e exibir quantos são pares\n7 - \n8 - \n9 - Média de Alunos\n0 - Sair");
+			System.out.println("1 - Soma\n2 - Repetir 20 vezes\n3 - Somar idades\n4 - Exibir os mais velhos\n5 - Exibir os mais novos\n6 - Ler 20 número e exibir quantos são pares\n7 - \n8 - Somar números positivos\n9 - Média de Alunos\n0 - Sair");
 			op = sc.nextLine();
 			
 			switch(op) {
@@ -53,6 +53,16 @@ public class Main {
 			case "6":
 				
 				runPares();
+				
+				break;
+			case "7":
+				
+				
+				
+				break;
+			case "8":
+				
+				subNumber();
 				
 				break;
 			case "9":
@@ -203,6 +213,28 @@ public class Main {
 		}
 		
 		System.out.println("Você digitou "+par+" números pares!");
+		
+	}
+	
+	//função  -EXERCÍCIO 8 (ARTHUR ESTEVAN)
+	public static void subNumber() {
+		
+		Scanner sc = new Scanner (System.in);
+		
+		int numA=0, total=0;
+		
+		do {
+			
+			System.out.println("Digite um número positivo pra ser somado, e um negativo para fechar a função: ");
+			numA = sc.nextInt();
+			
+			if(numA >= 0) {
+				total = total+numA;
+			}
+			
+		}while(numA>=0);
+		
+		System.out.println("A soma dos positivos deu: "+total);
 		
 	}
 	
