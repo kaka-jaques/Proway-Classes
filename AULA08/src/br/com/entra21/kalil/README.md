@@ -5,7 +5,7 @@
 ---
 
 ### <img src="https://github.com/kaka-jaques/Proway-Classes/blob/main/gifs/Arrow_Burning.gif?raw=true" align="center" width="35px"> **_Estrutura do Método_**
-```
+```java
 for (int condição = 0; condição < 0;condição++){
     Ação();
 }
